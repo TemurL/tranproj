@@ -31,8 +31,10 @@ body .main-container {
 }
 
 .hello-section {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-image: url(../../img/bgbg.png);
-  height: 768px;
+  height: 100vh;
   color: white;
   text-align: center;
   display: -webkit-box;

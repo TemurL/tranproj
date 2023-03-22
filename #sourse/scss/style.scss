@@ -32,8 +32,9 @@ body {
 }
 
 .hello-section {
+    box-sizing: border-box;
     background-image: url(../../img/bgbg.png);
-    height: 768px;
+    height: 100vh;
     color: white;
     .tittle {
         margin-top: 5.3rem;
