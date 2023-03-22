@@ -270,6 +270,12 @@ footer {
                 display: flex;
                 > * {
                     margin-right: 10px;
+                    > * {
+                        transition: 0.2s;
+                        &:hover {
+                            color: grey;
+                        }
+                    }
                 }
             }
         }

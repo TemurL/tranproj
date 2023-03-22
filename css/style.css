@@ -299,6 +299,14 @@ footer .links .footer-container .links-btns {
 footer .links .footer-container .links-btns > * {
   margin-right: 10px;
 }
+footer .links .footer-container .links-btns > * > * {
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+footer .links .footer-container .links-btns > * > *:hover {
+  color: grey;
+}
 footer .copyright {
   background-color: #171819;
   color: #48555B;
