@@ -85,7 +85,8 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-block: 25px; }
+    margin-block: 25px;
+    font-weight: 700; }
     header ul a {
       color: inherit;
       text-decoration: none;
@@ -236,7 +237,8 @@ footer .signup {
     height: 40px;
     width: 250px;
     border: none;
-    padding: 0 16px; }
+    padding: 0 16px;
+    outline: none; }
 
 footer .links {
   background-color: #141A20;
@@ -264,7 +266,8 @@ footer .links {
           -webkit-transition: 0.2s;
           -o-transition: 0.2s;
           transition: 0.2s;
-          font-weight: 600; }
+          font-weight: 600;
+          cursor: pointer; }
           footer .links .footer-container .links-btns > * > *:hover {
             color: grey; }
     footer .links .footer-container #media {
@@ -274,7 +277,7 @@ footer .copyright {
   background-color: #171819;
   color: white;
   height: 60px;
-  font-size: 15px;
+  font-size: 11px;
   letter-spacing: 0.846154px;
   display: -webkit-box;
   display: -ms-flexbox;
