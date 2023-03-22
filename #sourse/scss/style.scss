@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../../fonts/BebasNeue-Regular.ttf) format(truetype),
+        url(../../fonts/BebasNeue-Regular.woff) format(woff);
+    font-weight: 400;
+}
+
+$Pricolor: #48555B;
+$Seccolor: #00A4E5;
+%button {
+    height: 40px;
+    border: none;
+    background-color: $Seccolor;
+    color: white;
+    padding: 11px 29px;
+    font-size: 13px;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    margin: 0;
+    color: $Pricolor;
+    .main-container {
+        max-width: 940px;
+        margin: 0 auto;
+    }
+}
+
+.hello-section {
+    background-image: url(../../img/bgbg.png);
+    height: 768px;
+    color: white;
+    .tittle {
+        margin-top: 5.3rem;
+    }
+    h1 {
+        font-family: 'Bebas Neue';
+        font-size: 60px;
+        font-weight: 400;
+        letter-spacing: 5.70937px;
+        margin: 0;
+        &+p {
+            margin: 0;
+        }
+    }
+    span {
+        font-size: 11px;
+        letter-spacing: 3.7px;
+        margin-bottom: 30px;
+    }
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-block: 40px;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    padding-inline: 250px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E6E6E6;
+    ul {
+        list-style: none;
+        display: flex;
+        margin-block: 25px;
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: 0.3s;
+            margin-right: 40px;
+            &:hover { 
+                color: #00A4E5;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        li {
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+    }
+}
+
+.main-container {
+    hr {
+        width: 50px;
+        background-color: $Seccolor;
+        height: 2px;
+        border: none;
+    }
+    .story {
+        margin-bottom: 87px;
+        h2 {
+            text-align: center;
+            margin-top: 87px;
+            letter-spacing: 2.30625px;
+            font-size: 18px;
+        }
+        .story-content {
+            display: flex;
+            gap: 77px;
+            align-items: flex-end;
+            margin-top: 75px;
+            * {
+                flex: 1;
+            }
+
+            .story-text {
+                em {
+                    color: $Seccolor;
+                    font-style: normal;
+                }
+                p {
+                    font-size: 13px;
+
+                }
+                p:first-child {
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 29px;
+                }
+                p:last-child {
+                    margin-bottom: 0;
+                    letter-spacing: 0.1875px;
+                    line-height: 23px;
+                }
+            }
+
+            .story-cards {
+                * {
+                    width: 140px;
+                    height: 224px;
+                    background-size: cover;
+                    padding: 15px 0 0 15px;
+                }
+
+                font-size: 24px;
+                color: white;
+                font-weight: 900;
+
+                display: flex;
+                gap: 20px;
+                #first-card {
+                    background-image: url(../../img/Bitmapweplan.png);
+                }
+                #second-card {
+                    background-image: url(../../img/Bitmapwemanage.png);
+                }
+                #third-card {
+                    background-image: url(../../img/Bitmapwebuild.png);
+                }
+            }
+        }
+    }
+
+    .capab {
+        .head {
+            h2 {
+                margin: 0;
+                font-size: 18px;
+            }
+            hr {
+                margin-left: 0;
+                margin-bottom: 0;
+            }
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 76px;
+            .text-btn {
+                display: flex;
+                p {
+                    font-size: 11px;
+                    margin: 0 32px 0 0;
+                }
+                button {
+                    @extend %button
+                }
+            }
+        }
+        .cards {
+            display: flex;
+            gap: 28px;
+            margin-bottom: 116px;
+            .card {
+                padding: 38px 23px;
+                border: 1px solid #E6E6E6;
+                h3 {
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 13px;
+                    letter-spacing: 0.1875px;
+                    line-height: 23px;
+                }
+            }
+        }
+    }
+}
+
+.get-in-touch {
+    text-align: center;
+    height: 500px;
+    padding-top: 120px;
+    background-image: url(../../img/bgBg-for-end.png);
+    background-position-x: center;
+    background-size: cover;
+    background-position-y: 3px;
+    background-repeat: no-repeat;
+    h2 {
+        font-size: 30px;
+    }
+    button {
+        @extend %button
+    }
+}
+
+footer {
+    .signup {
+        height: 100px;
+        color: white;
+        background-color: #171819;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        label {
+            font-size: 22px;
+            letter-spacing: 0.846154px;
+            margin-right: 70px;
+        }
+        input {
+            height: 40px;
+            width: 250px;
+            border: none;
+            padding: 0 16px;
+        }
+        button {
+            @extend %button
+        }
+    }
+    .links {
+        background-color: #141A20;
+        padding-block: 50px;
+        color: white;
+        font-size: 11px;
+        display: flex;
+    }
+}
+
