@@ -14,6 +14,10 @@ $Seccolor: #00A4E5;
     color: white;
     padding: 11px 29px;
     font-size: 13px;
+    transition: 0.3s;
+    &:hover {
+        background-color: #00627a;
+    }
 }
 
 body {
@@ -252,6 +256,17 @@ footer {
         color: white;
         font-size: 11px;
         display: flex;
+        .footer-container {
+            display: flex;
+            width: 940px;
+            margin: 0 auto;
+            > * {
+                margin-right: 30px;
+            }
+            .links-btns {
+                display: flex;
+            }
+        }
     }
 }
 
