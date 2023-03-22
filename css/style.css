@@ -83,6 +83,9 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-bottom: 1px solid #E6E6E6;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
 }
 header ul {
   list-style: none;
@@ -292,4 +295,24 @@ footer .links .footer-container .links-btns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+footer .links .footer-container .links-btns > * {
+  margin-right: 10px;
+}
+footer .copyright {
+  background-color: #171819;
+  color: #48555B;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .copyright p {
+  margin: 0;
 }
