@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Bebas Neue';
-    src: url(../../fonts/BebasNeue-Regular.ttf) format(truetype),
-        url(../../fonts/BebasNeue-Regular.woff) format(woff);
+    src: url(../fonts/BebasNeue-Regular.ttf) format(truetype),
+        url(../fonts/BebasNeue-Regular.woff) format(woff);
     font-weight: 400;
 }
 
@@ -33,7 +33,7 @@ body {
 
 .hello-section {
     box-sizing: border-box;
-    background-image: url(../../img/bgbg.png);
+    background-image: url(../img/bgbg.png);
     height: 100vh;
     color: white;
     .tittle {
@@ -157,13 +157,13 @@ header {
                 display: flex;
                 gap: 20px;
                 #first-card {
-                    background-image: url(../../img/Bitmapweplan.png);
+                    background-image: url(../img/Bitmapweplan.png);
                 }
                 #second-card {
-                    background-image: url(../../img/Bitmapwemanage.png);
+                    background-image: url(../img/Bitmapwemanage.png);
                 }
                 #third-card {
-                    background-image: url(../../img/Bitmapwebuild.png);
+                    background-image: url(../img/Bitmapwebuild.png);
                 }
             }
         }
@@ -219,7 +219,7 @@ header {
     text-align: center;
     height: 500px;
     padding-top: 120px;
-    background-image: url(../../img/bgBg-for-end.png);
+    background-image: url(../img/bgBg-for-end.png);
     background-position-x: center;
     background-size: cover;
     background-position-y: 3px;
