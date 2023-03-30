@@ -20,6 +20,10 @@ $Seccolor: #00A4E5;
     }
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     font-family: 'Open Sans';
@@ -85,6 +89,7 @@ header {
             margin-right: 40px;
             &:hover { 
                 color: #00A4E5;
+                text-shadow: 0 0 20px #00a4e587;
             }
             &:last-child {
                 margin-right: 0;

@@ -18,6 +18,10 @@ footer .signup button:hover, .get-in-touch button:hover, .main-container .capab 
   background-color: #00627a;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -107,6 +111,7 @@ header ul a {
 }
 header ul a:hover {
   color: #00A4E5;
+  text-shadow: 0 0 20px rgba(0, 164, 229, 0.5294117647);
 }
 header ul a:last-child {
   margin-right: 0;
